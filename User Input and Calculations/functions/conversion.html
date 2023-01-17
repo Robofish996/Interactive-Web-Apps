@@ -16,28 +16,27 @@
             Distance Converter
         </h1>
 
-        <div id="app">
-            View the answer in the console
-        </div>
+       
 
         <!-- Start of Script -->
         <script>
 
         // step 1
         // Create const for conversion
-
-
+        const totalMiles = 0.621371
+        
         // step 2
         // Get user input and save to variable
-
+        let totalKm = prompt("Enter total kilometers");
 
         // step 3
         // Perform calculation and save result
+        let mileCon = totalKm * totalMiles ; 
 
 
         // step 4
         // Display result in DOM, alert or console
-        console.log("The distance of " + /*<<input var>>*/ + "km after being converted is " + /*<<result var>>*/ + " in miles");
+        document.write("The distance of " + totalKm + "km after being converted is " + mileCon + " in miles.");
 
         </script>
         <!-- End of Script -->
