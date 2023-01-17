@@ -14,10 +14,10 @@ let triangleHeight = 9;
 
 
 /* Rectangle area calculation*/
-   let rectangleAnswer = rectangleLength * rectangleBreadth
+let rectangleAnswer = rectangleLength * rectangleBreadth
 
 /* Append your rectangle answer:*/
-document.write("<br>The area of the given rectangle is : " );
+document.write("<br>The area of the given rectangle is : ");
 document.write(rectangleAnswer);
 
 
@@ -32,8 +32,8 @@ document.write(circleArea)
 
 
 /* triangle area calculation*/
-   let triangleArea = triangleBase / 2 * triangleHeight
+let triangleArea = triangleBase / half * triangleHeight
 
 /* Append your triangle answer:*/
-document.write("<br>The area of the given triangle is : " );
+document.write("<br>The area of the given triangle is : ");
 document.write(triangleArea)
